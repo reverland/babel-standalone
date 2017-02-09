@@ -178,6 +178,8 @@ registerPlugins({
   'transform-react-jsx-compat': require('babel-plugin-transform-react-jsx-compat'),
   'transform-react-jsx-self': require('babel-plugin-transform-react-jsx-self'),
   'transform-react-jsx-source': require('babel-plugin-transform-react-jsx-source'),
+  'transform-vue-jsx': require('babel-plugin-transform-vue-jsx'),
+  'helper-vue-jsx': require('babel-helper-vue-jsx-merge-props'),
   'transform-regenerator': require('babel-plugin-transform-regenerator'),
   'transform-runtime': require('babel-plugin-transform-runtime'),
   'transform-strict-mode': require('babel-plugin-transform-strict-mode'),
